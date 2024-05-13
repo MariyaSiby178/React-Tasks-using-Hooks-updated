@@ -1,0 +1,64 @@
+.img-height {
+    max-height: fit-content;
+  }
+  .button {
+    background-image: linear-gradient(
+      to right,
+      rgb(213, 82, 134),
+      rgb(83, 77, 206) 
+    )!important;
+    /* background-image: linear-gradient(to right, beige, rgba(4, 30, 7, 0)); */
+    /* background-image: linear-gradient(
+      to right,
+      rgb(151, 225, 187),
+      rgb(59, 173, 114)
+    ); */
+    /* background: rgb(218, 216, 216) !important; */
+  }
+  .button:hover{
+    /* background: linear-gradient(
+      to right,
+      rgb(151, 225, 187),
+      rgb(59, 173, 114)
+    ); */
+    /* background: rgb(83, 77, 206) !important; */
+    background: rgb(116, 58, 215) !important;
+    
+    color: aliceblue!important;
+  }
+  .input-color {
+    background: rgb(218, 216, 216) !important;
+  }
+  .color{
+    color: rgb(151, 148, 148) !important;
+  }
+  .icon-color{
+    color:rgb(116, 58, 215) !important;
+  }
+  .custom-checkbox {
+    appearance: none; /* Hide default checkbox */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(218, 216, 216)!important;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the checkbox when checked */
+  .custom-checkbox:checked {
+    background-color: rgb(116, 58, 215) !important /* Change the background color when checked */
+  }
+  
+  /* Style the label to visually represent the checkbox */
+  .custom-checkbox + label {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .icon-position{
+    position: absolute;
+   bottom: 10px;
+   top: 8px;
+  left: 15px;
+  font-size: x-large;
+  }

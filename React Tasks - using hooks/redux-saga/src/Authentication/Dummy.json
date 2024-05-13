@@ -1,0 +1,22 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "user": "Mariya",
+            "password": "mariya",
+            "role": "Admin"
+        },
+        {
+            "id": 2,
+            "user": "Rakesh",
+            "password": "rakesh",
+            "role": "Vendor"
+        },
+        {
+            "id": 3,
+            "user": "Tamil",
+            "password": "tamil",
+            "role": "User"
+        }
+    ]
+}

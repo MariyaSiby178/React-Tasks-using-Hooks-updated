@@ -1,0 +1,8 @@
+html,
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(232, 209, 213),
+    rgb(122, 195, 219)
+  ) !important;
+}
